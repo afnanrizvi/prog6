@@ -11,7 +11,7 @@ int main()
   for(count=0;count<n;count++)
   {
     printf("Enter Arrival Time and Burst Time for Process Process Number %d :",count+1);
-    scanf("%d",&arrival_time[count]);
+    scanf("%d",&arrival_time[count]);//Burst time
     scanf("%d",&burst_time[count]);
     rt[count]=burst_time[count];
   }
