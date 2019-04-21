@@ -18,7 +18,7 @@ int main()
   printf("Enter Time Quantum:%d\t",time_quantum);
  
   printf("\n\nProcess\t|Turnaround Time|Waiting Time\n\n");
-  for(time=0,count=0;remaining!=0;)
+  for(time=0,count=0;remaining!=0;)//we use for loop to check the condition and do the process
   {
     if(rt[count]<=time_quantum && rt[count]>0)
     {
